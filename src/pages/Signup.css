@@ -1,0 +1,31 @@
+.signup__image--container {
+  background-image: url(https://uploaddeimagens.com.br/images/004/077/419/full/Payment_Information-rafiki.png?1666787282);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.signup__form--container,
+.login__form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+
+.login__image--container {
+
+    background-image: url(https://uploaddeimagens.com.br/images/004/077/409/original/Ecommerce_web_page-pana.png?1666786894);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 765px){
+  .login__image--container,
+  .signup__image--container{
+    display: none;
+  }
+}
